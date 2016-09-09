@@ -7,7 +7,7 @@ import javax.xml.ws.Endpoint;
 public class PosServicePublisher{
 
 	public static void main(String[] args) {
-		Endpoint.publish("http://localhost:9998/pos", new PosServiceImpl());
+		Endpoint.publish("http://0.0.0.0:9998/pos", new PosServiceImpl());
     }
 
 }
