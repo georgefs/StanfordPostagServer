@@ -11,19 +11,13 @@ Stadford POS tagger的演算法論文可以參考: [Kristina Toutanova and Chris
 
 ## Installation
 
-1. 首先到[Stanford POS tagger](http://nlp.stanford.edu/software/tagger.shtml)下載[full Stanford Tagger version 3.6.0](http://nlp.stanford.edu/software/stanford-postagger-full-2015-12-09.zip)。
-2. 將壓縮檔解壓後，應該會有一個獨立的`stanford-postagger-full-2015-12-09`目錄，將這個repository中的所有檔案都複製到該目錄下。
-3. 執行`install.sh`，會執行以下任務
-    * 解壓縮`stanford-postagger.jar`
-    * 解壓縮`slf4j-api.jar`
-    * 解壓縮`slf4j-simple.jar`
-    * 解壓縮後，目錄下應該會多出`edu`, `org`, `META-INF`等目錄
-4. 確定你有安裝Java SDK 8，並執行`make.sh`，裡面作的事情很簡單
-    * 建立目錄 `service/endp`
-    * compile `PosService.java`並放在`service/impl`
-    * compile `PosServiceImpl.java`並放在`service/impl`
-    * compile `PosServicePublisher.java`並放在`service/endp`
-5. 確定你有安裝Java SDK 8，然後執行`run.sh`，這樣service就啟動了。當第一次呼叫service時，會載入資料，大約需0.6秒。
+```shell-script
+git clone https://github.com/banyh/StanfordPostagServer
+cd StanfordPostagServer
+sh install.sh
+```
+
+確定你有安裝Java SDK 8，然後執行`run.sh`，這樣service就啟動了。當第一次呼叫service時，會載入資料，大約需0.6秒。
 
 
 ## Customization
