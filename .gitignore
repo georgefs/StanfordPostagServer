@@ -1,0 +1,11 @@
+*.txt
+*.java
+*.xml
+*.out
+*.jar
+*.bat
+*.sh
+META-INF/
+edu/
+org/
+service/
