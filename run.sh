@@ -1,2 +1,2 @@
-java -cp . service.endp.PosServicePublisher
+java -cp lib/*:. service.endp.PosServicePublisher
 
