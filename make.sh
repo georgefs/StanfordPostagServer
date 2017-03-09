@@ -1,2 +1,2 @@
 #!/bin/bash
-javac -cp lib/*:. -d . src/*.java
+javac -cp lib/*:parser/*:postagger/*:segmenter/*:ner/*:. -d . src/*.java
