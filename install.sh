@@ -1,6 +1,7 @@
 #!/bin/sh
 
 wget http://nlp.stanford.edu/software/stanford-segmenter-2015-12-09.zip
+unzip stanford-segmenter-2015-12-09.zip
 mv stanford-segmenter-2015-12-09 segmenter
 
 wget http://nlp.stanford.edu/software/stanford-postagger-full-2015-12-09.zip
@@ -26,7 +27,7 @@ wget http://nlp.stanford.edu/software/stanford-spanish-corenlp-2015-10-14-models
 
 # ner
 wget http://nlp.stanford.edu/software/stanford-german-2015-10-14-models.jar
-wget http://nlp.stanford.edu/software/stanford-spanish-corenlp-2015-10-14-models.jar
+# wget http://nlp.stanford.edu/software/stanford-spanish-corenlp-2015-10-14-models.jar
 wget http://nlp.stanford.edu/software/stanford-chinese-corenlp-2015-12-08-models.jar
 mv *.jar lib
 

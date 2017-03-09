@@ -7,7 +7,6 @@ import service.impl.NerServiceImpl;
 import javax.xml.ws.Endpoint;
 
 //Endpoint publisher
-@SpringBootApplication
 public class PosServicePublisher{
 
 	public static void main(String[] args) {
