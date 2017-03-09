@@ -1,5 +1,6 @@
 package service.endp;
 import service.impl.PosServiceImpl;
+import service.impl.SegServiceImpl;
 
 import javax.xml.ws.Endpoint;
 
