@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from suds.client import Client
 import re
 
