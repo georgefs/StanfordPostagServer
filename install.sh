@@ -31,6 +31,6 @@ wget http://nlp.stanford.edu/software/stanford-german-2015-10-14-models.jar
 wget http://nlp.stanford.edu/software/stanford-chinese-corenlp-2015-12-08-models.jar
 mv *.jar lib
 
-
+rm *.zip
 
 sh make.sh
